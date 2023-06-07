@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+server:
+  port: 9999
+
+spring:
+  datasource:
+    username: root
+    password: 1passworld.
+    url: jdbc:mysql:///managment
+  redis:
+    port: 6379
+    host: localhost
+
+
+
+logging:
+  level:
+    com.example: debug
+
+
+
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: deleted
+      logic-not-delete-value: 0
+      logic-delete-value: 1
+=======
+server:
+  port: 9999
+
+spring:
+  datasource:
+    username: root
+    password: 1passworld.
+    url: jdbc:mysql:///managment
+
+
+  redis:
+    port: 6379
+    host: localhost
+
+>>>>>>> 135851aaf8991d8c0e08ef8cc78fa810dfc65146
